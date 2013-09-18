@@ -440,7 +440,7 @@ class Java(object):
     
     # TODO: get latest versions dynamically
     LATEST_VERSION = { 
-        7: JavaVersion(7, 0, 17, 2),
+        7: JavaVersion(7, 0, 40, 1),
         6: JavaVersion(6, 0, 43, 1),
     }
     
