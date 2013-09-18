@@ -735,7 +735,7 @@ class JavaDeb(Java):
         if jdk:
             name = 'oracle-java%d-installer' % version.major
         else:
-            return 'update-sun-jre'
+            return 'update-sun-jre=1.2.15'
         return name
 
     def install_jdk(self, version):
